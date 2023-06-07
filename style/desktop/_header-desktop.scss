@@ -1,0 +1,186 @@
+@media screen and (min-width: 801px) {
+  header {
+    padding: 0px 230px;
+    height: 100px;
+    .logo-container {
+      width: 200px;
+      height: 43.93px;
+      .logo {
+        width: 52.93px;
+        height: 38.16px;
+      }
+      .letter1 {
+        width: 21.22px;
+        height: 29.76px;
+      }
+      .letter2 {
+        width: 7.95px;
+        height: 29.76px;
+      }
+      .letter3 {
+        width: 19.72px;
+        height: 21.13px;
+      }
+      .letter4 {
+        width: 21.17px;
+        height: 29.99px;
+      }
+      .letter5 {
+        width: 19.35px;
+        height: 29.8px;
+      }
+      .letter6 {
+        width: 4.13px;
+        height: 28.99px;
+      }
+      .letter7 {
+        width: 18px;
+        height: 21.31px;
+      }
+    }
+    nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      gap: 30px;
+      width: 544px;
+      height: 45px;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      .nav-list-container {
+        display: block;
+        .nav-list {
+          position: static;
+          display: flex;
+          flex-direction: row;
+          gap: 30px;
+          padding: 0px;
+          height: 100%;
+          > li {
+            height: 19px;
+            font-family: "Quicksand";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            border: none;
+            position: relative;
+            > a {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              gap: 5px;
+              font-size: 16px;
+              line-height: 20px;
+              letter-spacing: 0.02rem;
+              height: 19px;
+              white-space: nowrap;
+              div {
+                width: 16px;
+                height: 16px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 16px;
+              }
+            }
+            > a:hover {
+              color: #01eef6;
+            }
+            .sub-menu1 {
+              background-color: #f3e401;
+              display: none;
+              align-items: center;
+              padding: 20px;
+              gap: 13px;
+              width: 220px;
+              position: absolute;
+              top: 59px;
+              left: 50px;
+              transform: translate(-50%);
+              border: none;
+              margin: 0;
+              z-index: 100;
+              li > a {
+                color: #301a49;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 18px;
+              }
+            }
+            .sub-menu1::before {
+              content: "";
+              position: absolute;
+              top: -15px;
+              left: 50%;
+              transform: translate(-50%);
+              border: 8px solid transparent;
+              border-bottom-color: #f3e401;
+            }
+            .sub-menu2 {
+              background-color: #f3e401;
+              display: none;
+              align-items: center;
+              padding: 20px;
+              gap: 13px;
+              width: 220px;
+              position: absolute;
+              top: 59px;
+              left: 50px;
+              transform: translate(-50%);
+              border: none;
+              margin: 0;
+              z-index: 100;
+              li > a {
+                color: #301a49;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 18px;
+              }
+            }
+            .sub-menu2::before {
+              content: "";
+              position: absolute;
+              top: -15px;
+              left: 50%;
+              transform: translate(-50%);
+              border: 8px solid transparent;
+              border-bottom-color: #f3e401;
+            }
+          }
+        }
+      }
+      .hamburgerMenu-container {
+        width: 120px;
+        height: 45px;
+        .hamburgerMenu {
+          display: none;
+        }
+        .gap {
+          display: none;
+        }
+        button {
+          padding: 12px 20px;
+          width: 119px;
+          height: 45px;
+          font-size: 13.9px;
+          line-height: 21px;
+        }
+        button:hover {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 2px solid #f3e401;
+          color: #ffffff;
+          background-color: $darkText;
+          font-size: 14px;
+          line-height: 21px;
+          white-space: nowrap;
+          transition: 0.4ms ease-in-out;
+        }
+      }
+    }
+  }
+}

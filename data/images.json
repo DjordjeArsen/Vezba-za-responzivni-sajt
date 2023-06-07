@@ -1,0 +1,195 @@
+[
+  {
+    "id": 1,
+    "description": "Logo-vector",
+    "url": {
+      "default": "./images/logo-vectors/logo-vector.svg"
+    }
+  },
+  {
+    "id": 2,
+    "description": "Letter-E",
+    "url": {
+      "default": "./images/logo-vectors/E-vector.svg"
+    }
+  },
+  {
+    "id": 3,
+    "description": "Letter-l",
+    "url": {
+      "default": "./images/logo-vectors/l-vector.svg"
+    }
+  },
+  {
+    "id": 4,
+    "description": "Letter-e",
+    "url": {
+      "default": "./images/logo-vectors/e2-vector.svg"
+    }
+  },
+  {
+    "id": 5,
+    "description": "Letter-p",
+    "url": {
+      "default": "./images/logo-vectors/p-vector.svg"
+    }
+  },
+  {
+    "id": 6,
+    "description": "Letter-h",
+    "url": {
+      "default": "./images/logo-vectors/h-vector.svg"
+    }
+  },
+  {
+    "id": 7,
+    "description": "Letter-i",
+    "url": {
+      "default": "./images/logo-vectors/i-vector.svg"
+    }
+  },
+  {
+    "id": 8,
+    "description": "Letter-c",
+    "url": {
+      "default": "./images/logo-vectors/c-vector.svg"
+    }
+  },
+  {
+    "id": 9,
+    "description": "Hero img",
+    "url": {
+      "mobile": "./images/hero-girl-mobile.png",
+      "tablet": "./images/hero-girl-tablet.png",
+      "desktop": "./images/hero-girl-desktop.png"
+    }
+  },
+  {
+    "id": 10,
+    "description": "Building image",
+    "url": {
+      "mobile": "./images/building-mobile.png",
+      "tablet": "./images/building-tablet.png",
+      "desktop": "./images/building-desktop.png"
+    }
+  },
+  {
+    "id": 11,
+    "description": "Laptop image",
+    "url": {
+      "mobile": "./images/laptop-mobile.png",
+      "tablet": "./images/laptop-tablet.png",
+      "desktop": "./images/laptop-desktop.png"
+    }
+  },
+  {
+    "id": 12,
+    "description": "Slider-img1",
+    "url": {
+      "mobile": "./images/slider_images/image1.png",
+      "tablet": "./images/slider_images/image1.png",
+      "desktop": "./images/slider_images/image1.png"
+    }
+  },
+  {
+    "id": 13,
+    "description": "Slider-img2",
+    "url": {
+      "mobile": "./images/slider_images/image2.png",
+      "tablet": "./images/slider_images/image2.png",
+      "desktop": "./images/slider_images/image2.png"
+    }
+  },
+  {
+    "id": 14,
+    "description": "Slider-img3",
+    "url": {
+      "mobile": "./images/slider_images/image3.png",
+      "tablet": "./images/slider_images/image3.png",
+      "desktop": "./images/slider_images/image3.png"
+    }
+  },
+  {
+    "id": 15,
+    "description": "Slider-img4",
+    "url": {
+      "mobile": "./images/slider_images/image4.png",
+      "tablet": "./images/slider_images/image4.png",
+      "desktop": "./images/slider_images/image4.png"
+    }
+  },
+  {
+    "id": 16,
+    "description": "Slider-img5",
+    "url": {
+      "mobile": "./images/slider_images/image5.png",
+      "tablet": "./images/slider_images/image5.png",
+      "desktop": "./images/slider_images/image5.png"
+    }
+  },
+  {
+    "id": 17,
+    "description": "Slider-img6",
+    "url": {
+      "mobile": "./images/slider_images/image6.png",
+      "tablet": "./images/slider_images/image6.png",
+      "desktop": "./images/slider_images/image6.png"
+    }
+  },
+  {
+    "id": 18,
+    "description": "Logo-vector white",
+    "url": {
+      "default": "./images/logo-vectors/logo-vector-BELI.svg"
+    }
+  },
+  {
+    "id": 19,
+    "description": "Letter-E white",
+    "url": {
+      "default": "./images/logo-vectors/E-vector-BELI.svg"
+    }
+  },
+  {
+    "id": 20,
+    "description": "Letter-l white",
+    "url": {
+      "default": "./images/logo-vectors/l-vector-BELI.svg"
+    }
+  },
+  {
+    "id": 21,
+    "description": "Letter-e white",
+    "url": {
+      "default": "./images/logo-vectors/e2-vector-BELI.svg"
+    }
+  },
+  {
+    "id": 22,
+    "description": "Letter-p white",
+    "url": {
+      "default": "./images/logo-vectors/p-vector-BELI.svg"
+    }
+  },
+  {
+    "id": 23,
+    "description": "Letter-h white",
+    "url": {
+      "default": "./images/logo-vectors/h-vector-BELI.svg"
+    }
+  },
+  {
+    "id": 24,
+    "description": "Letter-i white",
+    "url": {
+      "default": "./images/logo-vectors/i-vector-BELI.svg"
+    }
+  },
+  {
+    "id": 25,
+    "description": "Letter-c white",
+    "url": {
+      "default": "./images/logo-vectors/c-vector-BELI.svg"
+    }
+  }
+]

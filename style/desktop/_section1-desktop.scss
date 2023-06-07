@@ -1,0 +1,43 @@
+@media screen and (min-width: 801px) {
+  .section1 {
+    flex-direction: row;
+    height: 500px;
+    .img-wrapper {
+      order: 1;
+      width: 50%;
+      max-height: 500px;
+      img {
+        object-fit: contain;
+      }
+    }
+    .text-wrapper {
+      order: 0;
+      width: 50%;
+      padding: 0px 50px 0px 230px;
+      align-self: center;
+      div {
+        align-items: flex-start;
+        gap: 20px;
+        h4 {
+          font-size: 16px;
+          line-height: 24px;
+        }
+        h2 {
+          font-size: 50px;
+          line-height: 56px;
+          text-align: start;
+        }
+        p {
+          font-size: 18px;
+          line-height: 28px;
+          text-align: start;
+        }
+        button:hover {
+          background-color: $buttonYellow;
+          transition: 0.4s ease-in-out;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

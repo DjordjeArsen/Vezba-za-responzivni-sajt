@@ -1,0 +1,26 @@
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Titillium Web", sans-serif;
+  font-style: normal;
+  background: linear-gradient(180deg, #301a49 0%, #264989 100%);
+}
+
+.hidden {
+  display: none;
+}
+
+@import "./header";
+@import "./section1";
+@import "./main";
+@import "./article-middle-first";
+@import "./article-middle-second";
+@import "./section2";
+@import "./section3";
+@import "./footer";

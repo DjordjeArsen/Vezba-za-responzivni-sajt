@@ -1,0 +1,190 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  flex: none;
+  order: 7;
+  align-self: stretch;
+  flex-grow: 0;
+  .div-footer-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    background: rgba(48, 26, 73, 0.3);
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    .logo-footer-container {
+      width: 140px;
+      height: 30.75px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      position: relative;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .logo-footer {
+        width: 37.05px;
+        height: 26.72px;
+        position: absolute;
+        left: 0%;
+        right: 73.53%;
+        top: 0%;
+        bottom: 13.13%;
+      }
+      .letter1-footer {
+        width: 14.85px;
+        height: 20.83px;
+        position: absolute;
+        left: 29.67%;
+        right: 59.72%;
+        top: 12%;
+        bottom: 20.27%;
+      }
+      .letter2-footer {
+        width: 5.57px;
+        height: 20.83px;
+        position: absolute;
+        left: 42.46%;
+        right: 53.57%;
+        top: 12%;
+        bottom: 20.27%;
+      }
+      .letter3-footer {
+        width: 13.8px;
+        height: 14.79px;
+        position: absolute;
+        left: 47.32%;
+        right: 42.82%;
+        top: 31.95%;
+        bottom: 19.96%;
+      }
+      .letter4-footer {
+        width: 14.82px;
+        height: 20.99px;
+        position: absolute;
+        left: 59.65%;
+        right: 29.76%;
+        top: 31.75%;
+        bottom: 0%;
+      }
+      .letter5-footer {
+        width: 13.55px;
+        height: 20.86px;
+        position: absolute;
+        left: 73.1%;
+        right: 17.22%;
+        top: 11.89%;
+        bottom: 20.27%;
+      }
+      .letter6-footer {
+        width: 2.89px;
+        height: 20.29px;
+        position: absolute;
+        left: 86.05%;
+        right: 11.88%;
+        top: 13.75%;
+        bottom: 20.27%;
+      }
+      .letter7-footer {
+        width: 12.6px;
+        height: 14.92px;
+        position: absolute;
+        left: 91%;
+        right: -0.01%;
+        top: 31.75%;
+        bottom: 19.75%;
+      }
+    }
+    .footer-others {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      gap: 20px;
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+      div:first-child {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        a {
+          font-family: "Quicksand";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 18px;
+          text-align: right;
+          color: #ffffff;
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+          text-decoration: none;
+        }
+      }
+      div:last-child {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        a {
+          width: 19px;
+          height: 24px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 22px;
+          line-height: 24px;
+          color: #ffffff;
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .div-footer-last {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+    background: #301a49;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    p {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 18px;
+      height: 18px;
+      text-align: center;
+      color: #ffffff;
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+  }
+}
+
+@import './tablet/footer-tablet';
+@import './desktop/footer-desktop';

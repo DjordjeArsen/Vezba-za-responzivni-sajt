@@ -1,0 +1,168 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 10px;
+  color: $whiteText;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  div:first-child {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px 0px 20px;
+    gap: 10px;
+    border-top: 1px solid white;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    h4 {
+      font-family: "Titillium Web";
+      font-style: normal;
+      font-weight: $boldText;
+      font-size: 14px;
+      line-height: 21px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    h2 {
+      font-family: "Quicksand", sans-serif;
+      font-weight: $boldText;
+      font-size: 30px;
+      line-height: 32px;
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+    button {
+      padding: 12px 20px;
+      gap: 10px;
+      width: 133px;
+      height: 45px;
+      background: #01eef6;
+      border: none;
+      box-shadow: 0px 0px 10px rgba(1, 238, 246, 0.65);
+      border-radius: 20px;
+      font-family: "Titillium Web";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 21px;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: #301a49;
+      flex: none;
+      order: 2;
+      flex-grow: 0;
+    }
+  }
+  .div-articles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    .articles {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+      gap: 10px;
+      background: #301a49;
+      border-radius: 5px;
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      p:first-child {
+        height: 40px;
+        .icons {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 40px;
+          line-height: 40px;
+          color: #f3e401;
+          flex: none;
+          order: 0;
+          align-self: stretch;
+          flex-grow: 0;
+          height: 40px;
+        }
+      }
+      h4 {
+        height: 23px;
+        font-family: "Quicksand";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        color: #ffffff;
+        flex: none;
+        align-self: stretch;
+        flex-grow: 0;
+      }
+      .text {
+        font-family: "Titillium Web";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+      }
+      .read-more {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+
+        flex: none;
+        order: 3;
+        align-self: stretch;
+        flex-grow: 0;
+        p:first-child {
+          width: 66px;
+          height: 21px;
+          font-family: "Titillium Web";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 21px;
+        }
+        p:last-child {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+
+        p:last-child span {
+          font-size: 16px;
+          line-height: 16px;
+          flex: none;
+          order: 1;
+          flex-grow: 0;
+        }
+      }
+    }
+  }
+}
+
+@import "./tablet/main-tablet";
+@import "./desktop/main-desktop";

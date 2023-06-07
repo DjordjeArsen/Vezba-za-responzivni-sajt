@@ -1,0 +1,102 @@
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  .img-wrapper {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 0px;
+    text-align: center;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      gap: 10px;
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      h4 {
+        font-family: "Titillium Web";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #ffffff;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+      h2 {
+        font-family: "Quicksand";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 32px;
+        color: #ffffff;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+      }
+      p {
+        font-family: "Titillium Web";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #ffffff;
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+      }
+      button {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 12px 20px;
+        gap: 10px;
+        width: 130px;
+        height: 45px;
+        background: #01eef6;
+        border: none;
+        box-shadow: 0px 0px 10px rgba(1, 238, 246, 0.65);
+        border-radius: 20px;
+        font-family: "Titillium Web";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #301a49;
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+      }
+    }
+  }
+}
+
+@import './tablet/section1-tablet';
+@import './desktop/section1-desktop';
+

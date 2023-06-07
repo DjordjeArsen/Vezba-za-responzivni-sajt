@@ -1,0 +1,25 @@
+@media screen and (min-width: 481px) and (max-width: 800px) {
+  .article-middle-first {
+    flex-direction: row;
+    justify-content: space-between;
+    .article-img {
+      max-width: 50%;
+    }
+    .article-text {
+      align-items: flex-start;
+      padding: 0px 20px;
+      width: 50%;
+      gap: 16px;
+      h2 {
+        font-size: 40px;
+        line-height: 46px;
+        text-align: start;
+      }
+      p {
+        font-size: 18px;
+        line-height: 28px;
+        text-align: start;
+      }
+    }
+  }
+}

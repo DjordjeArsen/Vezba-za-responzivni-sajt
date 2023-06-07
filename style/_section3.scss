@@ -1,0 +1,142 @@
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px 40px;
+  gap: 20px;
+  flex: none;
+  order: 6;
+  align-self: stretch;
+  flex-grow: 0;
+  .first-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    h4 {
+      font-family: "Titillium Web";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #ffffff;
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+    h2 {
+      font-family: "Quicksand";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 32px;
+      text-align: center;
+      color: #ffffff;
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    .div-question {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0px;
+      height: 48px;
+      align-self: stretch;
+      border-top: 2px solid #f3e401;
+      p {
+        font-family: "Titillium Web";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        height: 26px;
+        color: #ffffff;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+      .add-remove {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+        span {
+          width: 26px;
+          height: 26px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 26px;
+          line-height: 26px;
+          cursor: pointer;
+          color: #01eef6;
+          transform: matrix(1, 0, 0, -1, 0, 0);
+          flex: none;
+          flex-grow: 0;
+        }
+      }
+    }
+    .div-question-last {
+      border-bottom: 2px solid #f3e401;
+    }
+    .div-answer-container{
+      width: 100%;
+      .div-answer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 10px;
+        background: #301a49;
+        flex: none;
+        align-self: stretch;
+        flex-grow: 0;
+        p {
+          font-family: "Titillium Web";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 24px;
+          color: #ffffff;
+          flex: none;
+          align-self: stretch;
+          flex-grow: 0;
+        }
+      }
+      .div-answer-border {
+        border-top: 2px solid #f3e401;
+      }
+      .div-answer-last {
+        border-bottom: 2px solid #f3e401;
+      }
+    }
+    
+  }
+}
+
+@import './tablet/section3-tablet';
+@import './desktop/section3-desktop';
+
+

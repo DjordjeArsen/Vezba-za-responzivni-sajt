@@ -1,0 +1,50 @@
+@media screen and (min-width: 481px) and (max-width: 800px) {
+  .section2 {
+    padding: 70px 0px;
+    height: 683px;
+    .section2-first-div {
+      flex-direction: row;
+      justify-content: space-between;
+      height: 86px;
+      .div-text-wrapper {
+        gap: 16px;
+        height: 86px;
+        h4 {
+          height: 24px;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: start;
+        }
+        h2 {
+          font-size: 40px;
+          line-height: 46px;
+          text-align: start;
+        }
+      }
+      .arrow-div-wrapper {
+        padding: 0;
+        width: auto;
+        gap: 20px;
+        align-self: flex-end;
+        .arrow-div {
+          width: 70px;
+          height: 70px;
+          span {
+            font-size: 30px;
+            line-height: 40px;
+          }
+        }
+      }
+    }
+    .carousel {
+      padding: 50px 20px;
+      gap: 30px;
+      height: 412px;
+      img {
+        width: 260px;
+        height: 312px;
+        filter: drop-shadow(0px 0px 20px rgba(1, 238, 246, 0.85));
+      }
+    }
+  }
+}

@@ -1,0 +1,230 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  gap: 10px;
+  position: relative;
+  height: 70px;
+  width: 100%;
+  .logo-container {
+    width: 130px;
+    height: 28.56px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .logo {
+      width: 34.4px;
+      height: 24.81px;
+      position: absolute;
+      left: 0%;
+      right: 73.53%;
+      top: 0%;
+      bottom: 13.13%;
+    }
+    .letter1 {
+      width: 13.79px;
+      height: 19.34px;
+      position: absolute;
+      left: 29.67%;
+      right: 59.72%;
+      top: 12%;
+      bottom: 20.27%;
+    }
+    .letter2 {
+      width: 5.17px;
+      height: 19.34px;
+      position: absolute;
+      left: 42.46%;
+      right: 53.57%;
+      top: 12%;
+      bottom: 20.27%;
+    }
+    .letter3 {
+      width: 12.82px;
+      height: 13.73px;
+      position: absolute;
+      left: 47.32%;
+      right: 42.82%;
+      top: 31.95%;
+      bottom: 19.96%;
+    }
+    .letter4 {
+      width: 13.76px;
+      height: 19.49px;
+      position: absolute;
+      left: 59.65%;
+      right: 29.76%;
+      top: 31.75%;
+      bottom: 0%;
+    }
+    .letter5 {
+      width: 12.58px;
+      height: 19.37px;
+      position: absolute;
+      left: 73.1%;
+      right: 17.22%;
+      top: 11.89%;
+      bottom: 20.27%;
+    }
+    .letter6 {
+      width: 2.69px;
+      height: 18.84px;
+      position: absolute;
+      left: 86.05%;
+      right: 11.88%;
+      top: 13.75%;
+      bottom: 20.27%;
+    }
+    .letter7 {
+      width: 11.7px;
+      height: 13.85px;
+      position: absolute;
+      left: 91%;
+      right: -0.01%;
+      top: 31.75%;
+      bottom: 19.75%;
+    }
+  }
+  nav {
+    .hidden {
+      display: none;
+    }
+    .nav-list-container {
+      .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 20px 0px;
+        gap: 16px;
+        position: absolute;
+        width: 100%;
+        height: 697px;
+        top: 70px;
+        left: 0px;
+        background: #301a49;
+        list-style: none;
+        > li {
+          border-bottom: 1px solid #f3e401;
+          width: 100%;
+          padding-bottom: 16px;
+          > a {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            text-decoration: none;
+            font-family: "Quicksand";
+            font-style: normal;
+            font-weight: 700;
+            color: #ffffff;
+            font-size: 18px;
+            line-height: 22px;
+            height: 21px;
+          }
+          div span {
+            font-weight: 400;
+            width: 18px;
+            height: 18px;
+            font-size: 18px;
+            line-height: 18px;
+          }
+          .sub-menu1 {
+            display: none;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 16px;
+            padding: 6px 20px;
+            gap: 12px;
+            list-style: none;
+            li > a {
+              text-decoration: none;
+              color: #ffffff;
+              font-family: "Quicksand";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 20px;
+            }
+          }
+          .sub-menu2 {
+            display: none;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 16px;
+            padding: 6px 20px;
+            gap: 12px;
+            list-style: none;
+            li > a {
+              text-decoration: none;
+              color: #ffffff;
+              font-family: "Quicksand";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+    }
+    .hamburgerMenu-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 0px;
+      gap: 10px;
+      width: 164px;
+      height: 40px;
+      .hamburgerMenu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        .menu-icon {
+          color: #ffffff;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 36px;
+          line-height: 36px;
+          vertical-align: middle;
+          cursor: pointer;
+        }
+      }
+      .gap {
+        width: 2px;
+        height: 100%;
+        background-color: #ffffff;
+      }
+      button {
+        padding: 10px 16px;
+        width: 106px;
+        height: 40px;
+        background: $buttonYellow;
+        border-radius: 20px;
+        border: none;
+        font-family: "Titillium Web";
+        font-style: normal;
+        font-weight: $boldText;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: $darkText;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@import "./tablet/header-tablet";
+@import "./desktop/header-desktop";

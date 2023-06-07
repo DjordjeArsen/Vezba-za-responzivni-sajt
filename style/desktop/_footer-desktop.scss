@@ -1,0 +1,65 @@
+@media screen and (min-width: 801px) {
+  footer {
+    height: 143.15px;
+    .div-footer-first {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 30px 230px;
+      .logo-footer-container {
+        width: 160px;
+        height: 35.15px;
+        .logo-footer {
+          width: 42.34px;
+          height: 30.53px;
+        }
+        .letter1-footer {
+          width: 16.97px;
+          height: 23.81px;
+        }
+        .letter2-footer {
+          width: 6.36px;
+          height: 23.81px;
+        }
+        .letter3-footer {
+          width: 15.77px;
+          height: 16.9px;
+        }
+        .letter4-footer {
+          width: 16.94px;
+          height: 23.99px;
+        }
+        .letter5-footer {
+          width: 15.48px;
+          height: 23.84px;
+        }
+        .letter6-footer {
+          width: 3.31px;
+          height: 23.19px;
+        }
+        .letter7-footer {
+          width: 14.4px;
+          height: 17.05px;
+        }
+      }
+      .footer-others {
+        flex-direction: row;
+        gap: 50px;
+        div:first-child {
+          a:hover {
+            cursor: pointer;
+            color: #01eef6;
+          }
+        }
+        div:last-child {
+          a:hover {
+            cursor: pointer;
+            color: #01eef6;
+          }
+        }
+      }
+    }
+    .div-footer-last {
+      height: 48px;
+    }
+  }
+}

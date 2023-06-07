@@ -1,0 +1,16 @@
+@media screen and (min-width: 481px) and (max-width: 800px) {
+  footer {
+    height: 118.75px;
+    .div-footer-first {
+      flex-direction: row;
+      justify-content: space-between;
+      .footer-others {
+        flex-direction: row;
+        gap: 50px;
+      }
+    }
+    .div-footer-last {
+      height: 48px;
+    }
+  }
+}

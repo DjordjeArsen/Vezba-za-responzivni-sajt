@@ -1,0 +1,50 @@
+@media screen and (min-width: 801px) {
+  main {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px 230px;
+    div:first-child {
+      align-items: flex-start;
+      padding: 0px;
+      gap: 20px;
+      align-self: center;
+      border: none;
+      h4 {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: start;
+      }
+      h2 {
+        font-size: 50px;
+        line-height: 56px;
+        width: 550px;
+        text-align: start;
+      }
+      button:hover {
+        background-color: $buttonYellow;
+        transition: 0.4s ease-in-out;
+        cursor: pointer;
+      }
+    }
+    .div-articles {
+      display: grid;
+      grid-template-columns: 290px 290px;
+      grid-template-rows: 217px 217px;
+      gap: 20px;
+      .articles {
+        .text {
+          width: 250px;
+        }
+      }
+      .articles:hover {
+        border: 3px solid #f3e401;
+        background-color: transparent ;
+        box-shadow: 0 0  14px #f3e401;
+        border-radius: 5px;
+        transition: 0.4s ease-in-out;
+        cursor: pointer;
+      }
+    }
+  }
+}

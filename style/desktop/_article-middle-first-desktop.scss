@@ -1,0 +1,36 @@
+@media screen and (min-width: 801px) {
+  .article-middle-first {
+    flex-direction: row;
+    .article-img {
+      max-width: 50%;
+    }
+    .article-text {
+      align-items: flex-start;
+      padding: 0px 230px 0px 50px;
+      width: 50%;
+      gap: 10px;
+      h2 {
+        font-size: 50px;
+        line-height: 56px;
+        text-align: start;
+      }
+      p {
+        font-size: 18px;
+        line-height: 28px;
+        text-align: start;
+      }
+      button:hover {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #f3e401;
+        border-radius: 20px;
+        background-color: white;
+        transition: 0.4s ease-in-out;
+        white-space: nowrap;
+        cursor: pointer;
+      }
+    }
+  }
+}

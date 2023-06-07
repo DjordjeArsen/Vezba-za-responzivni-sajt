@@ -1,0 +1,30 @@
+@media screen and (min-width: 481px) and (max-width: 800px) {
+  .article-middle-second {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 520px;
+    .article-img {
+      max-width: 50%;
+      order: 1;
+    }
+    .article-text {
+      align-items: flex-start;
+      padding: 0px 20px;
+      width: 50%;
+      gap: 16px;
+      order: 0;
+      h2 {
+        font-size: 40px;
+        line-height: 46px;
+        height: 138px;
+        text-align: start;
+      }
+      p {
+        font-size: 18px;
+        line-height: 28px;
+        height: 140px;
+        text-align: start;
+      }
+    }
+  }
+}

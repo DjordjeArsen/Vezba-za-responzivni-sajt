@@ -1,0 +1,96 @@
+@media screen and (min-width: 481px) and (max-width: 800px) {
+  header {
+    height: 100px;
+    .logo-container {
+      width: 200px;
+      height: 43.93px;
+      .logo {
+        width: 52.93px;
+        height: 38.16px;
+      }
+      .letter1 {
+        width: 21.22px;
+        height: 29.76px;
+      }
+      .letter2 {
+        width: 7.95px;
+        height: 29.76px;
+      }
+      .letter3 {
+        width: 19.72px;
+        height: 21.13px;
+      }
+      .letter4 {
+        width: 21.17px;
+        height: 29.99px;
+      }
+      .letter5 {
+        width: 19.35px;
+        height: 29.8px;
+      }
+      .letter6 {
+        width: 4.13px;
+        height: 28.99px;
+      }
+      .letter7 {
+        width: 18px;
+        height: 21.31px;
+      }
+    }
+    nav .nav-list-container {
+      .nav-list {
+        padding: 20px 40px 0px;
+        gap: 20px;
+        height: 924px;
+        top: 100px;
+        > li {
+          padding-bottom: 20px;
+          > a {
+            height: 23px;
+            font-size: 20px;
+            line-height: 25px;
+          }
+          div span {
+            width: 20px;
+            height: 20px;
+            font-size: 20px;
+            line-height: 20px;
+          }
+          .sub-menu1 {
+            display: none;
+            margin-top: 20px;
+            padding: 12px 30px;
+            gap: 15px;
+            li > a {
+              font-size: 18px;
+              line-height: 22px;
+            }
+          }
+          .sub-menu2 {
+            display: none;
+            margin-top: 20px;
+            padding: 12px 30px;
+            gap: 15px;
+            li > a {
+              font-size: 18px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+    .hamburgerMenu-container {
+      gap: 20px;
+      width: 197px;
+      height: 45px;
+      button {
+        padding: 12px 20px;
+        width: 119px;
+        height: 45px;
+        font-weight: $boldText;
+        font-size: 13.9px;
+        line-height: 21px;
+      }
+    }
+  }
+}
